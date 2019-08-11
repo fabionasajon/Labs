@@ -1,0 +1,8 @@
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.deps.json
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.dll
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.pdb
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.csproj.CoreCompileInputs.cache
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.AssemblyInfoInputs.cache
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.AssemblyInfo.cs
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.dll
+C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.pdb

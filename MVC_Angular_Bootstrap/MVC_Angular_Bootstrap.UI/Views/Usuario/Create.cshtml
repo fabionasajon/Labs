@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html ng-app="usuariosApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="~/Scripts/angular.js"></script>
+    <link href="~/Content/CustomCss/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/CustomJs/Usuario.js"></script>
+</head>
+<body ng-controller="usuariosCtrl" data-ng-init="GetUsuario('@ViewBag.matricula')">
+    <div class="topo_sub_pagina">
+        Cadastrar Usuário
+    </div>
+    <form name="userForm" style="padding: 15px;">
+        <div class="form-inline">
+            <div class="form-group" ng-class="{ 'has-error' : userForm.Cpf.$invalid && !userForm.Cpf.$pristine }">
+                <label>CPF:</label><br />
+                <input type="text" style="width: 150px;" name="Cpf" ng-model="usuario.Cpf" class="form-control input-sm" required>
+            </div>
+            <div class="form-group">
+                <label>Nome:</label><br />
+                <input type="text" style="width: 250px;" name="Nome" ng-model="usuario.Nome" class="form-control input-sm" >
+            </div>
+        </div>
+        <div class="form-inline" style="margin-top:10px;">
+            <div class="form-group">
+                <label>Telefone:</label><br />
+                <input type="text" style="width: 150px;" name="Telefone" ng-model="usuario.Telefone" class="form-control input-sm">
+            </div>
+            <div class="form-group">
+                <label>E-Mail:</label><br />
+                <input type="text" style="width: 250px;" name="Email" ng-model="usuario.Email" class="form-control input-sm" >
+            </div>
+
+        </div>
+        <div style="margin-top:10px;">
+            <button type="button" ng-click="GravaUsuario(usuario)" class="btn btn-primary btn-sm">Gravar</button>
+            <button type="button" class="btn btn-primary btn-sm">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>

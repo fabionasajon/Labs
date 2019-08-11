@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Angular_Bootstrap.UI", "MVC_Angular_Bootstrap.UI\MVC_Angular_Bootstrap.UI.csproj", "{69D40073-ED77-49B4-81A9-34A0066DB2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Angular_Bootstrap.VM", "MVC_Angular_Bootstrap.VM\MVC_Angular_Bootstrap.VM.csproj", "{60AC64D0-B8BA-4546-86FF-F76D64F1F751}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D40073-ED77-49B4-81A9-34A0066DB2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D40073-ED77-49B4-81A9-34A0066DB2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D40073-ED77-49B4-81A9-34A0066DB2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D40073-ED77-49B4-81A9-34A0066DB2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AC64D0-B8BA-4546-86FF-F76D64F1F751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AC64D0-B8BA-4546-86FF-F76D64F1F751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AC64D0-B8BA-4546-86FF-F76D64F1F751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AC64D0-B8BA-4546-86FF-F76D64F1F751}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDAD99EB-E454-49EF-89EF-9F41DC42C8A5}
+	EndGlobalSection
+EndGlobal

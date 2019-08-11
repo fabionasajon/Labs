@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/CustomCss/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/CustomJs/UsuarioSimples.js"></script>
+</head>
+<body>
+    <div class="topo_sub_pagina">
+        Cadastrar Usuário
+    </div>
+    <form id="userForm" name="userForm" style="padding: 15px;" enctype="multipart/form-data">
+        <div class="form-inline">
+            <div class="form-group">
+                <label>CPF:</label><br />
+                <input type="text" style="width: 150px;" name="Cpf" class="form-control input-sm">
+            </div>
+            <div class="form-group">
+                <label>Nome:</label><br />
+                <input type="text" style="width: 250px;" name="Nome" class="form-control input-sm">
+            </div>
+        </div>
+        <div class="form-inline" style="margin-top:10px;">
+            <div class="form-group">
+                <label>Telefone:</label><br />
+                <input type="text" style="width: 150px;" name="Telefone" class="form-control input-sm">
+            </div>
+            <div class="form-group">
+                <label>E-Mail:</label><br />
+                <input type="text" style="width: 250px;" name="Email" class="form-control input-sm">
+            </div>
+
+        </div>
+        <div style="margin-top:10px;">
+            <button type="submit" class="btn btn-primary btn-sm">Gravar</button>
+            <button type="button" class="btn btn-primary btn-sm">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\bin\Debug\MVC_Angular_Bootstrap.VM.dll
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\bin\Debug\MVC_Angular_Bootstrap.VM.pdb
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.csprojAssemblyReference.cache
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.csproj.CoreCompileInputs.cache
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.dll
+C:\Users\y7bi\source\repos\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.pdb
+C:\Users\y7bi\Documents\Projetos\Labs\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\bin\Debug\MVC_Angular_Bootstrap.VM.dll
+C:\Users\y7bi\Documents\Projetos\Labs\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\bin\Debug\MVC_Angular_Bootstrap.VM.pdb
+C:\Users\y7bi\Documents\Projetos\Labs\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.csproj.CoreCompileInputs.cache
+C:\Users\y7bi\Documents\Projetos\Labs\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.dll
+C:\Users\y7bi\Documents\Projetos\Labs\MVC_Angular_Bootstrap\MVC_Angular_Bootstrap.VM\obj\Debug\MVC_Angular_Bootstrap.VM.pdb

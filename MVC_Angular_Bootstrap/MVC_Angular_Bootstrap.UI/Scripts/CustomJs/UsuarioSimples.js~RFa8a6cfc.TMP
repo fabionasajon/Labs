@@ -1,0 +1,18 @@
+﻿$(document).ready(function () {
+    $("#userForm").onsubmit(function (a) {
+
+        a.preventDefalt();
+
+        $.ajax({
+            url: "Edit",
+            data: {
+                usuario: 123
+            },
+            type: "POST",
+            dataType: "string",
+        })
+        .success(function (json) {
+            alert(json);
+        })
+    });
+});

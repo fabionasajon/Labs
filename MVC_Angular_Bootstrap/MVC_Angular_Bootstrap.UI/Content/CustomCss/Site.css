@@ -1,0 +1,266 @@
+﻿body {
+}
+
+#menu_lateral {
+    width: 0px;
+    float: left;
+    position: fixed;
+    padding: 0px;
+    height: 100%;
+    background-color: #F8F8F8;
+    opacity: 0.9;
+    overflow: hidden;
+    border-right: solid 1px #A4C8E6;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.corpo {
+    width: 80%;
+    top: 80px;
+    height: 800px;
+    border: solid 1px;
+    margin: 0 auto;
+}
+
+
+
+.topo div {
+    color: #ffffff;
+}
+
+.topo {
+    overflow: visible;
+}
+
+.nav-bar-override {
+    background-color: #337AB7;
+}
+
+.input-sm-override {
+    height: 25px;
+}
+
+.toogle {
+    float: left;
+    padding-left: 15px;
+    padding-top: 11px;
+}
+
+.logo_petrobras {
+    text-align: right;
+    padding-right: 100px;
+    width: 100%;
+    padding-top: 18px;
+}
+
+#conteudo_topo {
+    height: 100px;
+    width: 100%;
+    background: transparent url(../../Images/bg-topo.gif) repeat-x;
+}
+
+.logo {
+    float: left;
+    padding-left: 15px;
+    font-size: 23pt;
+    padding-top: 8px;
+}
+
+#side-menu a {
+    color: #286090;
+    opacity: 1;
+}
+
+.acesso {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    float: left;
+}
+
+.pesquisa {
+    padding-left: 20px;
+    padding-top: 17px;
+    display: inline-block;
+}
+
+.sair {
+    padding-top: 11px;
+    float: left;
+    padding-left: 50px;
+}
+
+.action_sair {
+    color: darkgray;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+    .action_sair:hover {
+        cursor: pointer;
+        color: lightgray;
+    }
+
+.topo_sub_pagina {
+    font-weight: bold;
+    padding-left: 30px;
+    border-bottom: solid 2px;
+    display:inline-block;
+    width:100%;
+}
+
+.corpo_sub_pagina {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.corpo_sub_pagina_cinza {
+    background-color: #F8F8F8;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+.conteudo {
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.frame {
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+
+.contato {
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+}
+
+.btn_collapse {
+    position: fixed;
+    color: #ffffff;
+    z-index: 100;
+    background-color: #337AB7;
+    height: 15px;
+    width: 15px;
+}
+
+    .btn_collapse:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+
+.tooltip_blue + .tooltip > .tooltip-inner {
+    background-color: #337AB7;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    font-size: 12pt;
+    opacity: 0.9;
+}
+
+.tooltip_blue + .tooltip.top > .tooltip-arrow {
+    border-top: 5px solid blue;
+}
+/* Tooltip on bottom */
+.tooltip_blue + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 5px solid blue;
+}
+/* Tooltip on left */
+.tooltip_blue + .tooltip.left > .tooltip-arrow {
+    border-left: 5px solid blue;
+}
+/* Tooltip on right */
+.tooltip_blue + .tooltip.right > .tooltip-arrow {
+    border-right: 5px solid blue;
+}
+
+.tooltip_blue_small + .tooltip > .tooltip-inner {
+    background-color: #286090;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu > .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+
+.grid_prog {
+    width: 100%;
+    margin-top: 1px;
+    font-size: 9pt;
+}
+
+    .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #ccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover > a:after {
+        border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+
+#dialog label, #dialog input {
+    display: block;
+}
+
+#dialog label {
+    margin-top: 0.5em;
+}
+
+#dialog input, #dialog textarea {
+    width: 95%;
+}
+
+#tabs li .ui-icon-close {
+    float: left;
+    margin: 0.4em 0.2em 0 0;
+    cursor: pointer;
+}
+
+#add_tab {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-bottom: 0;
+}

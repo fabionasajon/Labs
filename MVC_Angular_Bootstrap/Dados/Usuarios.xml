@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUsuarioVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UsuarioVM>
+    <Matricula>20190430145238</Matricula>
+    <Cpf>112.555.989-89</Cpf>
+    <Nome>Rodrigo Souza da Silva</Nome>
+    <Telefone>(21)9999-5555</Telefone>
+    <Email>rodrigo@hotmail.com</Email>
+  </UsuarioVM>
+  <UsuarioVM>
+    <Matricula>20190430145156</Matricula>
+    <Cpf>111.555.444-02</Cpf>
+    <Nome>Fábio Souza Mota</Nome>
+    <Telefone>(21)9995-8855</Telefone>
+    <Email>fabiomotatj@hotmail.com</Email>
+  </UsuarioVM>
+  <UsuarioVM>
+    <Matricula>20190430181216</Matricula>
+    <Cpf>111.000.444-02</Cpf>
+    <Nome>Arthur Rodrigues</Nome>
+    <Telefone>(21)9999-2214</Telefone>
+    <Email>arthur@hotmail.com</Email>
+  </UsuarioVM>
+</ArrayOfUsuarioVM>
