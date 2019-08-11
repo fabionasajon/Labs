@@ -1,0 +1,34 @@
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Algorithms.Form1.resources
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Algorithms.csproj.GenerateResource.Cache
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\Algorithms.Form1.resources
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\y7bi\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\Algorithms\obj\x86\Debug\Algorithms.csproj.GenerateResource.Cache
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\obj\x86\Debug\Algorithms.Form1.resources
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\obj\x86\Debug\Algorithms.csproj.GenerateResource.Cache
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3D_NamingRule.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\CommonMiddle.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3DCoreDotNetUtils.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3DSMOUtils.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\VwGeneratorCmd.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3DSMOUtils2K8.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3DSMOUtils2K12.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\CommonMiddle.xml
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\en-US\CommonMiddle.resources.dll
+C:\Users\y7bi\Documents\Projetos\Labs\Algorithms\Algorithms\bin\Debug\SP3D_NamingRule.Dal.dll
