@@ -1416,7 +1416,7 @@ namespace Algorithms
 
             //return (int)Math.Round(res,0,MidpointRounding.AwayFromZero);
         }
-
+               
         public int StackMachine(string S)
         {
             // write your code in C# 6.0 with .NET 4.5 (Mono)
