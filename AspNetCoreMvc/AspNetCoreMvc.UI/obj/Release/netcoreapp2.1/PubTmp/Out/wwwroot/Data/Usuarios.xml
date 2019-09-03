@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUsuarioEnt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UsuarioEnt>
+    <Matricula>20190813215747</Matricula>
+    <Cpf>121.231.231-23</Cpf>
+    <Nome>Arthur Mota</Nome>
+    <Telefone>(23)23232-3232</Telefone>
+    <Email>arthur@mail.com</Email>
+  </UsuarioEnt>
+  <UsuarioEnt>
+    <Matricula>20190813233517</Matricula>
+    <Cpf>232.123.123-12</Cpf>
+    <Nome>Fabio Mota da Silva</Nome>
+    <Telefone>(21)98832-1332</Telefone>
+    <Email>fabiomotatj@hotmail.com</Email>
+  </UsuarioEnt>
+  <UsuarioEnt>
+    <Matricula>20190902233635</Matricula>
+    <Cpf>576.576.576-57</Cpf>
+    <Nome>Susana Linda</Nome>
+    <Telefone>(21)44434-3345</Telefone>
+    <Email>susana@mail.com</Email>
+  </UsuarioEnt>
+</ArrayOfUsuarioEnt>
