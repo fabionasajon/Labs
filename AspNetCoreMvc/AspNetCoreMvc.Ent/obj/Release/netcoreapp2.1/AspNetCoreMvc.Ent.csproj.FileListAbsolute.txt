@@ -6,3 +6,12 @@ C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Releas
 C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.AssemblyInfo.cs
 C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.dll
 C:\Users\y7bi\Documents\Projetos\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.pdb
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.deps.json
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.dll
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\bin\Release\netcoreapp2.1\AspNetCoreMvc.Ent.pdb
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.AssemblyInfo.cs
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.dll
+C:\Users\admin\Documents\Projects\Labs\AspNetCoreMvc\AspNetCoreMvc.Ent\obj\Release\netcoreapp2.1\AspNetCoreMvc.Ent.pdb
