@@ -1,4 +1,8 @@
-﻿$(document).ready(function () {
+﻿var caminho = "Api/Usuapi"
+$(document).ready(function () {
+
+    $($("#userForm")[0].elements["Cpf"]).mask("000.000.000-00")
+    $($("#userForm")[0].elements["Telefone"]).mask("(00)00000-0000")
 
     LoadGrid()
 
@@ -19,11 +23,19 @@
         else
             Update(json, object.Matricula);
     });
+
+    $('#userForm')[0]["Cpf"].focus();
 });
+
+function limpaForm() {
+    $('#userForm')[0].reset();
+    $('#userForm')[0]["Matricula"].value = ''
+    $('#userForm')[0]["Cpf"].focus();
+}
 
 function Insert(json) {
     $.ajax({
-        url: "http://mi00259039/aspnetcoremvc/Api/UsuApi/",
+        url: caminho,
         data: json,
         contentType: 'application/json',
         type: "POST",
@@ -43,7 +55,7 @@ function Insert(json) {
 
 function Update(json, mat) {
     $.ajax({
-        url: "http://mi00259039/aspnetcoremvc/Api/UsuApi/" + mat,
+        url: caminho + '/' + mat,
         data: json,
         contentType: 'application/json',
         type: "PUT",
@@ -63,7 +75,7 @@ function Update(json, mat) {
 
 function LoadData(id) {
     $.ajax({
-        url: "http://mi00259039/aspnetcoremvc/Api/UsuApi/" + id,
+        url: caminho + '/' + id,
         type: "GET",
         success: function (response) {
             var form = $("#userForm")[0];
@@ -82,21 +94,24 @@ function LoadData(id) {
 
 function LoadGrid() {
     $.ajax({
-        url: "http://mi00259039/aspnetcoremvc/Api/UsuApi",
+        url: caminho,
         contentType: 'application/json',
         type: "GET",
         success: function (response) {
 
-            $("#tblUser").find("tr:gt(0)").remove();
+            //$("#tblUser").find("tr:gt(0)").remove();
+            //$("#tblUser > tbody").html("");
+            //$("#tblUser > tbody").children().remove();
+            $("#tblUser > tbody").empty();
 
             for (i = 0; i < response.length; i++) {
                 var row = "<tr><td>" + response[i].cpf + "</td>"
                 row = row + "<td>" + response[i].nome + "</td>"
                 row = row + "<td>" + response[i].email + "</td>"
                 row = row + "<td>" + response[i].telefone + "</td>"
-                row = row + "<td><img src=\"images/icons/application_edit.png\" title=\"Editar\" style=\"cursor: pointer; \" onclick=\"javascript:LoadData('/" + response[i].matricula + "')\" /><img src=\"images/icons/application_delete.png\" title=\"Excluir\" style=\"cursor: pointer; \" onclick=\"javascript:DeletaUsu(" + response[i].matricula + ")\" /></td>"
+                row = row + "<td><img src=\"images/icons/application_edit.png\" title=\"Editar\" style=\"cursor: pointer; \" onclick=\"javascript:LoadData('/" + response[i].matricula + "')\" /><img src=\"images/icons/application_delete.png\" title=\"Excluir\" style=\"cursor: pointer; \" id='del_" + response[i].matricula + "'  onclick='javasctipt:exclui(" + response[i].matricula + ")' /></td>"
 
-                $('#tblUser tr:last').after(row);
+                $('#tblUser > tbody').append(row);
             }
 
         },
@@ -106,14 +121,35 @@ function LoadGrid() {
     });
 }
 
+function exclui(matr) {
+
+    var template = '<div class="popover"><div class="arrow"></div><h3 class="popover-title" style="color: #A94442; background-color: #F2DEDE;"></h3><div class="popover-content" style="text-align: center;"></div></div>';
+
+    var elemento = '#del_' + matr;
+
+    var conteudo = '<button type="button" class="btn btn-primary btn-xs" onclick="DeletaUsu(' + matr + ')" ><i class="glyphicon glyphicon-ok"></i> Sim</button>' +
+        '<button type="button"  class="btn btn-default btn-xs" onclick="$(\'' + elemento + '\').popover(\'destroy\')"><i class="glyphicon glyphicon-remove"></i> Não</button>'
+
+
+    $(elemento).popover({
+        title: "Deseja realmente Excluir?",
+        html: true,
+        content: conteudo,
+        placement: 'bottom',
+        template: template
+    });
+
+    $(elemento).popover('show');
+}
+
 function DeletaUsu(id) {
     $.ajax({
-        url: "http://mi00259039/aspnetcoremvc/Api/UsuApi/" + id,
+        url: caminho + '/' + id,
         type: "DELETE",
         success: function (response) {
             if (response == "ok")
                 LoadGrid();
-        
+
         },
         failure: function (response) {
             alert(response);

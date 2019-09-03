@@ -11,6 +11,8 @@
     <title>View</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="~/js/UsuarioDetail.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-mask/dist/jquery.mask.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap-confirmation.js"></script>
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
@@ -18,26 +20,26 @@
         <div class="form-group col-md-3">
             <div class="form-group">
                 <label>CPF:</label><br />
-                <input type="text" name="Cpf" class="form-control input-sm">
+                <input type="text" name="Cpf" class="form-control input-sm" required>
             </div>
             <div class="form-group">
                 <label>Nome:</label><br />
-                <input type="text" name="Nome" class="form-control input-sm">
+                <input type="text" name="Nome" class="form-control input-sm" required>
             </div>
 
             <div class="form-group">
                 <label>Telefone:</label><br />
-                <input type="text" name="Telefone" class="form-control input-sm">
+                <input type="text" name="Telefone" class="form-control input-sm" required>
             </div>
             <div class="form-group">
                 <label>E-Mail:</label><br />
-                <input type="text" name="Email" class="form-control input-sm">
+                <input type="email" name="Email" class="form-control input-sm" required>
             </div>
             <input type="hidden" name="Matricula" />
 
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-sm ">Gravar</button>
-                <button type="button" class="btn btn-primary btn-sm">Cancelar</button>
+                <button type="submit" class="btn btn-primary btn-block btn-sm">Gravar</button>
+                <button type="button" class="btn btn-primary btn-block btn-sm" onclick="limpaForm()">Novo</button>
             </div>
         </div>
 
