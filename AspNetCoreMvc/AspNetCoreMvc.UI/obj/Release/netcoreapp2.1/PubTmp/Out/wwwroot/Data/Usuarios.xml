@@ -8,17 +8,31 @@
     <Email>arthur@mail.com</Email>
   </UsuarioEnt>
   <UsuarioEnt>
-    <Matricula>20190813233517</Matricula>
-    <Cpf>232.123.123-12</Cpf>
-    <Nome>Fabio Mota da Silva</Nome>
-    <Telefone>(21)98832-1332</Telefone>
-    <Email>fabiomotatj@hotmail.com</Email>
-  </UsuarioEnt>
-  <UsuarioEnt>
-    <Matricula>20190902233635</Matricula>
+    <Matricula>20190903232646</Matricula>
     <Cpf>576.576.576-57</Cpf>
     <Nome>Susana Linda</Nome>
     <Telefone>(21)44434-3345</Telefone>
     <Email>susana@mail.com</Email>
+  </UsuarioEnt>
+  <UsuarioEnt>
+    <Matricula>20190903232814</Matricula>
+    <Cpf>859.895.958-79</Cpf>
+    <Nome>João da Silva</Nome>
+    <Telefone>(21)88864-6646</Telefone>
+    <Email>joao@hotmail.com</Email>
+  </UsuarioEnt>
+  <UsuarioEnt>
+    <Matricula>20190903233638</Matricula>
+    <Cpf>546.848.484-84</Cpf>
+    <Nome>Novo Usuário</Nome>
+    <Telefone>(13)12312-3131</Telefone>
+    <Email>novo@mail.com</Email>
+  </UsuarioEnt>
+  <UsuarioEnt>
+    <Matricula>20190903234111</Matricula>
+    <Cpf>232.123.123-12</Cpf>
+    <Nome>Fabio Mota da Silva</Nome>
+    <Telefone>(21)98832-1332</Telefone>
+    <Email>fabiomotatj@hotmail.com</Email>
   </UsuarioEnt>
 </ArrayOfUsuarioEnt>
