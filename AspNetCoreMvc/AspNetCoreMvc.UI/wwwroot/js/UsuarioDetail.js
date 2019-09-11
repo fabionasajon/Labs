@@ -10,18 +10,20 @@ $(document).ready(function () {
 
         a.preventDefault();
 
-        var dat = new FormData(this);
+        var dat = {
+            Cpf: this.elements["Cpf"].value,
+            Nome: this.elements["Nome"].value,
+            Matricula: this.elements["Matricula"].value,
+            Email: this.elements["Email"].value,
+            Telefone: this.elements["Telefone"].value
+        }
 
-        var object = {};
-        dat.forEach(function (value, key) {
-            object[key] = value;
-        });
-        var json = JSON.stringify(object);
+        var json = JSON.stringify(dat);
 
-        if (object.Matricula == "")
+        if (dat.Matricula == "")
             Insert(json);
         else
-            Update(json, object.Matricula);
+            Update(json, dat.Matricula);
     });
 
     $('#userForm')[0]["Cpf"].focus();
@@ -41,7 +43,7 @@ function Insert(json) {
         type: "POST",
         success: function (response) {
             if (response == "ok") {
-                $('#userForm')[0].reset();
+                limpaForm();
                 LoadGrid();
             }
             else
@@ -61,7 +63,7 @@ function Update(json, mat) {
         type: "PUT",
         success: function (response) {
             if (response == "ok") {
-                $('#userForm')[0].reset();
+                limpaForm();
                 LoadGrid();
             }
             else
@@ -109,7 +111,7 @@ function LoadGrid() {
                 row = row + "<td>" + response[i].nome + "</td>"
                 row = row + "<td>" + response[i].email + "</td>"
                 row = row + "<td>" + response[i].telefone + "</td>"
-                row = row + "<td><img src=\"images/icons/application_edit.png\" title=\"Editar\" style=\"cursor: pointer; \" onclick=\"javascript:LoadData('/" + response[i].matricula + "')\" /><img src=\"images/icons/application_delete.png\" title=\"Excluir\" style=\"cursor: pointer; \" id='del_" + response[i].matricula + "'  onclick='javasctipt:exclui(" + response[i].matricula + ")' /></td>"
+                row = row + "<td><img src=\"images/icons/application_edit.png\" title=\"Editar\" style=\"cursor: pointer; \" onclick=\"javascript:LoadData('/" + response[i].matricula + "')\" /><img src=\"images/icons/application_delete.png\" title=\"Excluir\" style=\"cursor: pointer; \" id='del_" + response[i].matricula + "'  onclick='javasctipt:exclui(" + response[i].matricula + ")' /></td></tr>"
 
                 $('#tblUser > tbody').append(row);
             }
@@ -119,7 +121,7 @@ function LoadGrid() {
             alert(response);
         }
     });
-}
+}     
 
 function exclui(matr) {
 
