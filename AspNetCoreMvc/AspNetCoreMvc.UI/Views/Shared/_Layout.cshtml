@@ -47,13 +47,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">AspNetCoreMvc.UI</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Fábio Mota Soluções</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Usuario" asp-action="Index">Usuários</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
+                    <li><a asp-area="" asp-controller="Usuario" asp-action="Index">Exemplos</a></li>
                 </ul>
             </div>
         </div>
@@ -65,7 +65,7 @@
         @RenderBody()
     </div>
     <hr />
-    <footer>
+    <footer class="panel-footer">
         <p>&copy; 2019 - AspNetCoreMvc.UI</p>
     </footer>
     @RenderSection("Scripts", required: false)
