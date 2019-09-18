@@ -55,7 +55,7 @@ namespace AspNetCoreMvc.UI.Controllers
 
         // POST: api/UsuApi
         [HttpPost]
-        public string Post([FromBody]UsuarioEnt usu)
+        public string Post([FromForm]UsuarioEnt usu)
         {
 
             try
@@ -99,7 +99,7 @@ namespace AspNetCoreMvc.UI.Controllers
 
         // PUT: api/UsuApi/5
         [HttpPut("{id}")]
-        public string Put(long id, [FromBody] UsuarioEnt usu)
+        public string Put(long id, [FromForm] UsuarioEnt usu)
         {
             List<UsuarioEnt> us = new List<UsuarioEnt>();
             XmlSerializer xs = new XmlSerializer(typeof(List<UsuarioEnt>));

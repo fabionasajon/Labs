@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - AspNetCoreMvc.UI</title>
+    <title>Fábio Mota</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -51,9 +51,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
-                    <li><a asp-area="" asp-controller="Usuario" asp-action="Index">Exemplos</a></li>
+                    <li><a asp-controller="Home" asp-action="About">Sobre</a></li>
+                    <li><a asp-controller="Home" asp-action="Exemplo">Exemplos</a></li>
                 </ul>
             </div>
         </div>
@@ -66,7 +65,7 @@
     </div>
     <hr />
     <footer class="panel-footer">
-        <p>&copy; 2019 - AspNetCoreMvc.UI</p>
+        <p>&copy; Fábio Mota Soluções - 2019</p>
     </footer>
     @RenderSection("Scripts", required: false)
 </body>

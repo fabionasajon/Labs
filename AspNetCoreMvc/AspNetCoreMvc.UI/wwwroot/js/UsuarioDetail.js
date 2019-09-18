@@ -9,21 +9,12 @@ $(document).ready(function () {
     $("#userForm").submit(function (a) {
 
         a.preventDefault();
+        var fd = new FormData(this);
 
-        var dat = {
-            Cpf: this.elements["Cpf"].value,
-            Nome: this.elements["Nome"].value,
-            Matricula: this.elements["Matricula"].value,
-            Email: this.elements["Email"].value,
-            Telefone: this.elements["Telefone"].value
-        }
-
-        var json = JSON.stringify(dat);
-
-        if (dat.Matricula == "")
-            Insert(json);
+        if (this.elements["Matricula"].value == "")
+            Insert(fd);
         else
-            Update(json, dat.Matricula);
+            Update(fd, this.elements["Matricula"].value);
     });
 
     $('#userForm')[0]["Cpf"].focus();
@@ -39,7 +30,8 @@ function Insert(json) {
     $.ajax({
         url: caminho,
         data: json,
-        contentType: 'application/json',
+        contentType: false,
+        processData: false,
         type: "POST",
         success: function (response) {
             if (response == "ok") {
@@ -59,7 +51,8 @@ function Update(json, mat) {
     $.ajax({
         url: caminho + '/' + mat,
         data: json,
-        contentType: 'application/json',
+        contentType: false,
+        processData: false,
         type: "PUT",
         success: function (response) {
             if (response == "ok") {
