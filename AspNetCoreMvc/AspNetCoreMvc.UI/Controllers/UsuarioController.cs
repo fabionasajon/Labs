@@ -24,6 +24,16 @@ namespace AspNetCoreMvc.UI.Controllers
             return View();
         }
 
+        public ActionResult Menu()
+        {
+            return View();
+        }
+
+        public ActionResult Relatorio(int id)
+        {
+            return View();
+        }
+
         // GET: Usuario/Create
         public ActionResult Create(long id)
         {

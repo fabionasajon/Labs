@@ -1,0 +1,88 @@
+﻿
+@{
+
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+	<link href="~/lib/bootstrap/dist/css/bootstrap-datatable-responsive.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/dist/css/bootstrap-datatable.css" rel="stylesheet" />
+
+	<script src="~/lib/jquery/dist/jquery-datatable.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap-datatable.js"></script>
+
+	<script>
+		let urlApi = "../../Api/UsuApi/"
+
+		$(document).ready(function () {
+			LoadGrid()
+		});
+
+		function LoadGrid() {
+			$.ajax({
+				url: urlApi,
+				contentType: 'application/json',
+				type: "GET",
+				success: function (response) {
+
+					$('#tblUser tbody tr').remove(0)
+
+					for (i = 0; i < response.length; i++) {
+						var row = "<tr><td>" + response[i].cpf + "</td>"
+						row = row + "<td>" + response[i].nome + "</td>"
+						row = row + "<td>" + response[i].email + "</td>"
+						row = row + "<td>" + response[i].telefone + "</td></tr>"
+
+
+						$('#tblUser > tbody:last-child').append(row);
+					}
+
+					mostraPaginacao();
+				},
+				failure: function (response) {
+					alert(response);
+				}
+			});
+		}
+
+		function mostraPaginacao() {
+			$('#tblUser').DataTable({
+				"language": {
+					"search": "Filtrar:",
+					"paginate": {
+						"next": "Próximo",
+						"previous": "Anterior"
+					},
+					"zeroRecords": "Nenhum registro encontrado!",
+				},
+				"sDom": '<"top"f>rt<"bottom"p><"clear">',
+				'aaSorting': [],
+				"iDisplayLength": 5,
+				"aoColumns": [
+					{ "bSortable": false },
+					{ "bSortable": false },
+					{ "bSortable": false },
+					{ "bSortable": false }
+				]
+
+			});
+		}
+
+	</script>
+<div class="topo_sub_pagina">
+	Grid Com Paginação e Filtro Local
+</div>
+<br />
+<br />
+<table id="tblUser" class="table table-condensed table-hover table-striped grid_prog">
+	<thead>
+		<tr>
+			<th>CPF</th>
+			<th>Nome</th>
+			<th>E-Mail</th>
+			<th>Telefone</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<tr />
+	</tbody>
+</table>

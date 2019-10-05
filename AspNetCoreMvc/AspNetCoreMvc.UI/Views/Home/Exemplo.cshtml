@@ -1,39 +1,32 @@
-﻿
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-<style>
-    img:hover {
-        border: solid 1px #b8b8b8;
-    }
-</style>
-<div class="row">
+﻿<div class="row">
     <div class="col-md-3">
         <h3>Grid Detalhe</h3>
-        <a asp-controller="Usuario" asp-action="Index">
-            <p>Exemplo de cadastro simples, usando um layout responsivo, criado com bootstrap:</p>
-            <img src="~/images/Cadastro.png" class="img-responsive img-thumbnail" />
+        <a asp-action="Index" asp-controller="Usuario">
+            <div class="row">
+                <i class='far fa-address-card col-md-3' style='font-size:60px;'></i>
+                <p class="col-md-9">Cadastro de usuários com lista. Layout adaptável a dispositivos moveis.</p>
+            </div>
         </a>
     </div>
     <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
+        <h3>Grid Paginada</h3>
+        <a asp-action="Relatorio" asp-controller="Usuario">
+            <div class="row">
+                <i class='glyphicon glyphicon-list-alt col-md-3' style='font-size:60px;'></i>
+                <p class="col-md-9">Grid que permite paginação e permite filtro dos dados encontrados.</p>
+            </div>
+        </a>
     </div>
     <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
+        <h3>Menus</h3>
+        <a asp-action="Menu" asp-controller="Usuario">
+            <div class="row">
+                <i class='glyphicon glyphicon-menu-hamburger col-md-3' style='font-size:60px;'></i>
+                <p class="col-md-9">Exemplo de menus que se adaptam em browsers comuns e móveis.</p>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-3">
+        
     </div>
 </div>
-

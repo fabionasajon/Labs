@@ -12,6 +12,22 @@ body {
     padding-right: 15px;
 }
 
+@media screen and (max-width: 699px) {
+    .main-slider .hero-caption .year {
+        font-size: 78px;
+        font-weight: 700;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .main-slider .hero-caption .caption {
+        font-size: 28px;
+        font-weight: 700;
+        display: inline-block;
+    }
+}
+
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -124,6 +140,7 @@ body {
     padding-left: 30px;
     border-bottom: solid 2px;
     display: inline-block;
+    padding-top:10px;
     width: 100%;
 }
 
@@ -222,7 +239,6 @@ body {
     }
 
 .grid_prog {
-    width: 100%;
     margin-top: 1px;
     font-size: 9pt;
 }
